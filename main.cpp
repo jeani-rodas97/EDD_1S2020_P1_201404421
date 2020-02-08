@@ -3,6 +3,7 @@
 #include <windows.h>
 #include <stdio.h>
 #include <conio.h>
+#include "Pantalla.h"
 
 using namespace std;
 
@@ -27,7 +28,22 @@ int menu()
 
 int main()
 {
+    int opcion;
+    Pantalla pant;
+    pant.Ajustar(150,50);
     system("color 5f");
     menu();
+    cin>>opcion;
+    //Opciones del munu
+    do
+    {
+        switch(opcion)
+        {
+            case 1:
+
+                break;
+        }
+
+    }while(opcion!=4);
     return 0;
 }

@@ -6,7 +6,7 @@ class Pantalla
 {
     public:
         Pantalla();
-        Marco(int a, int b, int c, int d);
+        bool Ajustar(int ancho, int alto);
 
     protected:
 

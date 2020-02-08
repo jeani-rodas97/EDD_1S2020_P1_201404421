@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1581139015 source:c:\users\jeany\documents\archivos c++\editordetexto\main.cpp
+	<iostream>
+	<stdlib.h>
+	<windows.h>
+	<stdio.h>
+	<conio.h>
+
+1581137237 source:c:\users\jeany\documents\archivos c++\editordetexto\pantalla.cpp
+	"Pantalla.h"
+	<iostream>
+	<stdlib.h>
+	<windows.h>
+	<stdio.h>
+
+1581136820 c:\users\jeany\documents\archivos c++\editordetexto\pantalla.h
+

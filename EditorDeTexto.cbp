@@ -32,6 +32,10 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="ListaDobleChar.cpp" />
+		<Unit filename="ListaDobleChar.h" />
+		<Unit filename="NodoChar.cpp" />
+		<Unit filename="NodoChar.h" />
 		<Unit filename="Pantalla.cpp" />
 		<Unit filename="Pantalla.h" />
 		<Unit filename="main.cpp" />

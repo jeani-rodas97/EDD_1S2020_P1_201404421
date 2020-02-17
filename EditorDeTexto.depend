@@ -1,10 +1,12 @@
 # depslib dependency file v1.0
-1581139549 source:c:\users\jeany\documents\archivos c++\editordetexto\main.cpp
+1581899811 source:c:\users\jeany\documents\archivos c++\editordetexto\main.cpp
 	<iostream>
 	<stdlib.h>
 	<windows.h>
 	<stdio.h>
 	<conio.h>
+	"Pantalla.h"
+	"ListaDobleChar.h"
 
 1581141611 source:c:\users\jeany\documents\archivos c++\editordetexto\pantalla.cpp
 	"Pantalla.h"
@@ -19,9 +21,17 @@
 
 1581144418 c:\users\jeany\documents\archivos c++\editordetexto\nodochar.h
 
-1581144418 source:c:\users\jeany\documents\archivos c++\editordetexto\listadoblechar.cpp
+1581894225 source:c:\users\jeany\documents\archivos c++\editordetexto\listadoblechar.cpp
 	"ListaDobleChar.h"
+	<string.h>
 
-1581144431 c:\users\jeany\documents\archivos c++\editordetexto\listadoblechar.h
+1581894225 c:\users\jeany\documents\archivos c++\editordetexto\listadoblechar.h
 	"NodoChar.h"
+	<iostream>
+
+1581899811 source:c:\users\jeany\documents\archivos c++\editordetexto\nodocambio.cpp
+	"NodoCambio.h"
+
+1581899834 c:\users\jeany\documents\archivos c++\editordetexto\nodocambio.h
+	<iostream>
 

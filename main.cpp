@@ -3,7 +3,9 @@
 #include <windows.h>
 #include <stdio.h>
 #include <conio.h>
+
 #include "Pantalla.h"
+#include "ListaDobleChar.h"
 
 using namespace std;
 
@@ -28,9 +30,11 @@ int menu()
 
 int main()
 {
-    int opcion;
-    Pantalla pant;
-    pant.Ajustar(150,50);
+    ListaDobleChar DobleLista;
+    char key;
+    int opcion, ascii;
+    //Pantalla pant;
+    //pant.Ajustar(150,50);
     system("color 5f");
     menu();
     cin>>opcion;
@@ -40,7 +44,18 @@ int main()
         switch(opcion)
         {
             case 1:
-
+                system("cls"); //Para limpiar la ventana
+                cout<<"\t*Buscar y reemplazar (CTRL + W) \t\t *Reportes (CTRL + C) \t\t *Guardar (CTRL + S)\n";
+                while(1)
+                {
+                    key = getch();
+                    ascii = key;
+                    if(ascii == 27)
+                        break;
+                    DobleLista.Insertar(key);
+                    cout << "Tecla presionada " << key << endl;
+                    DobleLista.Mostrar();
+                }
                 break;
         }
 

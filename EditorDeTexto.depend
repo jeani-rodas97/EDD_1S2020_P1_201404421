@@ -35,3 +35,19 @@
 1581899834 c:\users\jeany\documents\archivos c++\editordetexto\nodocambio.h
 	<iostream>
 
+1581918877 source:c:\users\jeany\documents\archivos c++\editordetexto\pilacambios.cpp
+	"PilaCambios.h"
+	"PilaRevertidos.h"
+	<iostream>
+
+1581918877 c:\users\jeany\documents\archivos c++\editordetexto\pilacambios.h
+	"NodoCambio.h"
+	<iostream>
+
+1581918892 c:\users\jeany\documents\archivos c++\editordetexto\pilarevertidos.h
+	"NodoCambio.h"
+	<iostream>
+
+1581918877 source:c:\users\jeany\documents\archivos c++\editordetexto\pilarevertidos.cpp
+	"PilaRevertidos.h"
+

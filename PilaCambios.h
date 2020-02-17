@@ -9,6 +9,7 @@ class PilaCambios
     public:
         PilaCambios();
         void push(string buscar, string reemplazar);
+        void pop();
 
     protected:
 

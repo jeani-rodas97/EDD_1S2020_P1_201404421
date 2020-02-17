@@ -34,10 +34,16 @@
 		</Compiler>
 		<Unit filename="ListaDobleChar.cpp" />
 		<Unit filename="ListaDobleChar.h" />
+		<Unit filename="NodoCambio.cpp" />
+		<Unit filename="NodoCambio.h" />
 		<Unit filename="NodoChar.cpp" />
 		<Unit filename="NodoChar.h" />
 		<Unit filename="Pantalla.cpp" />
 		<Unit filename="Pantalla.h" />
+		<Unit filename="PilaCambios.cpp" />
+		<Unit filename="PilaCambios.h" />
+		<Unit filename="PilaRevertidos.cpp" />
+		<Unit filename="PilaRevertidos.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />
